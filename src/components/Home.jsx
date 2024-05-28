@@ -57,7 +57,7 @@ function Home() {
         </div>
 
         <div>
-          <a href="/public/cv.pdf" download="CV-Jhon-Betancourth.pdf"><button className="m-10 w-40 h-16 bg-cyan-400 rounded-3xl font-medium">Descargar CV</button></a>
+          <a href="/cv.pdf" download="CV-Jhon-Betancourth.pdf"><button className="m-10 w-40 h-16 bg-cyan-400 rounded-3xl font-medium">Descargar CV</button></a>
         </div>
       </div>
     </div>
