@@ -18,7 +18,7 @@ function Home() {
     instance.freeze();
     setButtonText("Unfreeze");
   };
-  console.log(data)
+  
   return (
     <div className="flex">
       <div className="container mx-auto">

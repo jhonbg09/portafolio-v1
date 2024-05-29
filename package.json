@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "antd": "^5.17.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sweetalert2": "^11.11.0",
     "typeit-react": "^2.7.1"
   },
   "devDependencies": {
