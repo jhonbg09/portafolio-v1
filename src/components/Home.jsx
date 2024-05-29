@@ -1,4 +1,5 @@
 import React from "react";
+import Swal from 'sweetalert2'
 import TypeIt from "typeit-react";
 import  {data} from "../data"
 import { useState } from "react";
@@ -18,6 +19,15 @@ function Home() {
     instance.freeze();
     setButtonText("Unfreeze");
   };
+
+  // alerta de confirmacion de descarga
+  const confirmDownload = () => Swal.fire({
+    position: "top-center",
+    icon: "success",
+    title: "Descarga Exitosa",
+    showConfirmButton: false,
+    timer: 2000
+  });
   
   return (
     <div className="flex">
@@ -57,7 +67,7 @@ function Home() {
         </div>
 
         <div>
-          <a href="/cv.pdf" download="CV-Jhon-Betancourth.pdf"><button className="m-10 w-40 h-16 bg-cyan-400 rounded-3xl font-medium">Descargar CV</button></a>
+          <a href="/cv.pdf" download="CV-Jhon-Betancourth.pdf"><button onClick={confirmDownload} className="m-10 w-40 h-16 bg-cyan-400 rounded-3xl font-medium">Descargar CV</button></a>
         </div>
       </div>
     </div>

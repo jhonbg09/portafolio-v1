@@ -73,7 +73,6 @@ export const data = {
       percent: 30
     },
 
-
   ]
   
 
