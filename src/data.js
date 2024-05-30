@@ -77,3 +77,7 @@ export const data = {
   
 
 };
+
+export const experience = {
+  name: "experiencia",
+}

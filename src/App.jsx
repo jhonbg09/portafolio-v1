@@ -1,10 +1,11 @@
 import './App.css'
 import './style/home.css'
-import { data } from './data'
+import { data, experience } from './data'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
+import Experience from './components/Experience'
 
 function App() {
   console.log(data)
@@ -28,8 +29,14 @@ function App() {
         />
       </section>
       
-      <section className='h-screen home'>
+      <section className='h-screen mt-20 home'>
         <Projects/>
+      </section>
+
+      <section className='h-screen mt-20 home'>
+        <Experience
+          experiencia={experience.name}
+        />
       </section>
 
       <footer className='bg-cyan-400'>
