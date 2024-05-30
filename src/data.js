@@ -78,6 +78,8 @@ export const data = {
 
 };
 
-export const experience = {
-  name: "experiencia",
-}
+
+export const descrip_1 = `AdoptaApp es una iniciativa desarrollada por el equipo de No-Country para cerrar la brecha en la adopción de mascotas. Diseñada para facilitar la búsqueda de hogar para amigos peludos en una municipalidad en Argentina, la aplicación permite a los usuarios cargar perfiles de mascotas disponibles para adopción, detallando sus características individuales. Con el objetivo de hacer más accesible la ayuda para encontrarles un hogar amoroso, AdoptaApp busca conectar a las mascotas necesitadas con familias dispuestas a brindarles un hogar lleno de amor. Mi participación en este proyecto fue como desarrollador front end, contribuyendo al diseño y la funcionalidad de la interfaz de usuario para garantizar una experiencia fluida y atractiva para los usuarios.`
+
+  
+

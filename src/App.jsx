@@ -1,6 +1,6 @@
 import './App.css'
 import './style/home.css'
-import { data, experience } from './data'
+import { data } from './data'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
@@ -35,7 +35,7 @@ function App() {
 
       <section className='h-screen mt-20 home'>
         <Experience
-          experiencia={experience.name}
+          
         />
       </section>
 

@@ -17,7 +17,7 @@ function About({ about, description, techs }) {
         </div>
 
         <div>
-          <img src="/public/3d.png" />
+          <img src="/3d.png" />
         </div>
       </div>
 
