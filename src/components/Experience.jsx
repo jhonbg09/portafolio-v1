@@ -1,7 +1,6 @@
 import React from "react";
-import { Collapse } from "antd";
-import {descrip_1} from "../data"
-
+import { Collapse, Button, Flex } from "antd";
+import { descrip_1, descrip_2, descrip_3 } from "../data";
 
 // const descrip_1 = `
 //   Prueba 1
@@ -12,20 +11,63 @@ import {descrip_1} from "../data"
 // `
 const items = [
   {
-    key: '1',
-    label: 'AdoptaAPP Marzo - Mayo',
+    key: "1",
+    label: "AdoptaAPP (Marzo - Mayo) 2024",
     children: (
-      <div>
-      <p>{descrip_1}</p>
-      <a href="URL_DESEADA">Enlace a más información</a>
-    </div>
-    )
+      <div className="flex">
+        <div className="w-1/2">
+          <img className="w-auto" src="/adoptapp.png" />
+        </div>
+        <div className="w-1/2">
+          <p className="text-xl">{descrip_1}</p>
+          <Flex gap="small" wrap>
+            <a href="https://adoptapp-blue.vercel.app/">
+              <Button type="primary">Enlace al proyecto</Button>
+            </a>
+          </Flex>
+        </div>
+      </div>
+    ),
   },
 
   {
-    key: '2',
-    label: 'AdoptaAPP',
-    children: <p>{descrip_1}</p>,
+    key: "2",
+    label: "Almacenes Brissa (Enero - Febrero) 2024",
+    children: (
+      <div className="flex">
+        <div className="w-1/2">
+          <img className="w-auto px-4" src="/brissa.png" />
+        </div>
+        <div className="w-1/2">
+          <p className="text-xl">{descrip_2}</p>
+          <Flex gap="small" wrap>
+            <a href="https://www.almacenesbrissa.com.co/">
+              <Button type="primary">Enlace al proyecto</Button>
+            </a>
+          </Flex>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    key: "3",
+    label: "E-PARTNER (Septiembre - Diciembre) 2021",
+    children: (
+      <div className="flex">
+        <div className="w-1/2">
+          <img className="w-auto px-4" src="/lerner.png" />
+        </div>
+        <div className="w-1/2">
+          <p className="text-xl">{descrip_3}</p>
+          <Flex gap="small" wrap>
+            <a href="https://www.librerialerner.com.co/">
+              <Button type="primary">Enlace al proyecto</Button>
+            </a>
+          </Flex>
+        </div>
+      </div>
+    ),
   },
 ];
 
@@ -38,8 +80,8 @@ function Experience({}) {
       <div>
         <h2 className="uppercase text-5xl text-center mt-16">experiencia</h2>
       </div>
-      <div>
-      <Collapse items={items} onChange={onChange} />
+      <div className="p-20">
+        <Collapse items={items} onChange={onChange} />
       </div>
     </div>
   );

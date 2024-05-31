@@ -83,3 +83,7 @@ export const descrip_1 = `AdoptaApp es una iniciativa desarrollada por el equipo
 
   
 
+export const descrip_2 = `Como front-end en el equipo de soporte de Almacenes Brissa, me encargué de la actualización de rutas y del correcto funcionamiento de la plataforma CRM de VTEX IO. Además, implementé mejoras específicas para mejorar el posicionamiento en motores de búsqueda (SEO), garantizando así que la presencia en línea de la empresa se destacara y atrajera más tráfico cualificado.`
+
+
+export const descrip_3 = `Administré varias páginas web, incluyendo la librería Lerner, desarrollando landing pages, dashboards y aplicaciones en línea utilizando la plataforma VTEX IO. Diseñé interfaces y elementos front-end, mantuve y optimicé sitios web e interfaces. logré aumentar el tráfico web en un 20% mediante la mejora de la navegación del sitio web de la empresa. También desarrollé componentes front-end reutilizables para optimizar la eficiencia del desarrollo.`

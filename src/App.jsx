@@ -11,7 +11,7 @@ function App() {
   console.log(data)
 
   return (
-    <div className='container mx-auto m-0 p-0 retalive'>
+    <div className='container mx-auto m-0 p-0 retalive h-screen'>
       <section className='header fixed m-5 bg-cyan-100 w-11/12 h-20 items-center rounded-2xl z-auto	'>
         <Header/>
       </section>
@@ -39,7 +39,7 @@ function App() {
         />
       </section>
 
-      <footer className='bg-cyan-400'>
+      <footer className='container bg-cyan-400'>
         <p>desde el footer</p>
       </footer>
     </div>
