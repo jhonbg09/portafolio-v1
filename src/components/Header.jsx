@@ -4,7 +4,9 @@ import React from "react";
 export default function Header() {
   return (
     <div className="flex justify-between h-full items-center">
-      <div>Logo</div>
+      <div>
+        <img className="p-2 w-20 rounded-full" src="/logo.png" alt="logo"/>
+      </div>
       <div className="w-1/2">
         <ul className="flex justify-around h-10 w- full font-bold uppercase">
           <li className="hover:bg-cyan-400 flex items-center justify-center rounded-md px-2 cursor-pointer h-full">

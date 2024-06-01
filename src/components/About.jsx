@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Progress } from "antd";
+// import { Flex, Progress } from "antd";
 
 function About({ about, description, techs }) {
   return (
@@ -29,9 +29,9 @@ function About({ about, description, techs }) {
               <p className="text-center uppercase">{tech.name_tech}</p>
               <div>
                 <img className="w-24 h-24" src={tech.img} alt={tech.alt} />
-                <Flex gap="small" vertical>
+                {/* <Flex gap="small" vertical>
                   <Progress percent={tech.percent} />
-                </Flex>
+                </Flex> */}
               </div>
             </div>
           ))}
