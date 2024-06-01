@@ -1,6 +1,8 @@
 import React from "react";
 // import { Flex, Progress } from "antd";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+AOS.init();
 function About({ about, description, techs }) {
   return (
     <div className="container flex flex-col">
@@ -21,7 +23,9 @@ function About({ about, description, techs }) {
         </div>
       </div>
 
-      <div>
+      <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         <h2 className="uppercase text-5xl text-center">Tecnologias</h2>
         <div className="flex justify-around flex-wrap">
           {techs.map((tech) => (
